@@ -29,13 +29,13 @@ class Shark
      */
     protected $weapon;
 
-  /**
-     * Create a new shark instance.
-     *
-     * @param \Yrgo\Weapons\Weapon $weapon
-     *
-     * @return void
-     */
+    /**
+       * Create a new shark instance.
+       *
+       * @param \Yrgo\Weapons\Weapon $weapon
+       *
+       * @return void
+       */
     public function __construct(Weapon $weapon)
     {
         $this->weapon = $weapon;
