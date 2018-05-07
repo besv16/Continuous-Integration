@@ -29,7 +29,7 @@ class Shark
      */
     protected $weapon;
 
-    /**
+  /**
      * Create a new shark instance.
      *
      * @param \Yrgo\Weapons\Weapon $weapon
